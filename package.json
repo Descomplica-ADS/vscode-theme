@@ -1,17 +1,11 @@
 {
-    "name": "vscode-theme",
-    "version": "1.7.2",
+    "name": "descomplica-theme",
+    "version": "1.2.8",
     "displayName": "Descomplica Theme",
     "description": "Descomplica theme for VS Code",
     "publisher": "NyctibiusVII",
     "homepage": "https://github.com/Descomplica-ADS/vscode-theme",
     "license": "MIT",
-    "scripts": {
-        "build": "node ./scripts/build.js",
-        "lint": "node ./scripts/lint.js",
-        "vscode:prepublish": "npm run build",
-        "vsce-publish": "vsce publish"
-    },
     "maintainers": [
         "Matheus Vidigal <matheus.dev.07@gmail.com>",
         "Vinicius Rodrigues <~@gmail.com>"
@@ -37,7 +31,7 @@
     ],
     "icon": "icon.png",
     "galleryBanner": {
-        "color": "#00964d",
+        "color": "#00e88f",
         "theme": "dark"
     },
     "contributes": {
@@ -55,7 +49,6 @@
         ]
     },
     "devDependencies": {
-        "generator-code": "^1.6.8",
         "vsce": "^2.7.0",
         "yo": "^4.3.0"
     }
