@@ -1,0 +1,62 @@
+{
+    "name": "vscode-theme",
+    "version": "1.7.2",
+    "displayName": "Descomplica Theme",
+    "description": "Descomplica theme for VS Code",
+    "publisher": "NyctibiusVII",
+    "homepage": "https://github.com/Descomplica-ADS/vscode-theme",
+    "license": "MIT",
+    "scripts": {
+        "build": "node ./scripts/build.js",
+        "lint": "node ./scripts/lint.js",
+        "vscode:prepublish": "npm run build",
+        "vsce-publish": "vsce publish"
+    },
+    "maintainers": [
+        "Matheus Vidigal <matheus.dev.07@gmail.com>",
+        "Vinicius Rodrigues <~@gmail.com>"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Descomplica-ADS/vscode-theme.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Descomplica-ADS/vscode-theme/issues"
+    },
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "vscode-theme",
+        "descomplica",
+        "theme",
+        "color-theme"
+    ],
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#00964d",
+        "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Parakeet Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/parakeet-theme-color-theme.json"
+            },
+            {
+                "label": "Harley Quinn Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/harley-quinn-theme-color-theme.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "generator-code": "^1.6.8",
+        "vsce": "^2.7.0",
+        "yo": "^4.3.0"
+    }
+}
