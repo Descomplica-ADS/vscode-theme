@@ -1,6 +1,6 @@
 {
     "name": "descomplica-theme",
-    "version": "1.2.8",
+    "version": "1.2.9",
     "displayName": "Descomplica Theme",
     "description": "Descomplica theme for VS Code",
     "publisher": "NyctibiusVII",
@@ -26,25 +26,26 @@
     "keywords": [
         "vscode-theme",
         "descomplica",
+        "color-theme",
         "theme",
-        "color-theme"
+        "dark"
     ],
     "icon": "icon.png",
     "galleryBanner": {
-        "color": "#00e88f",
+        "color": "#00ef91",
         "theme": "dark"
     },
     "contributes": {
         "themes": [
             {
-                "label": "Parakeet Theme",
+                "label": "Parakeet",
                 "uiTheme": "vs-dark",
-                "path": "./themes/parakeet-theme-color-theme.json"
+                "path": "./themes/parakeet-color-theme.json"
             },
             {
-                "label": "Harley Quinn Theme",
+                "label": "Harley Quinn",
                 "uiTheme": "vs-dark",
-                "path": "./themes/harley-quinn-theme-color-theme.json"
+                "path": "./themes/harley-quinn-color-theme.json"
             }
         ]
     },
