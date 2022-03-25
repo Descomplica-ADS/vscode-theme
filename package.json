@@ -1,6 +1,6 @@
 {
     "name": "descomplica-theme",
-    "version": "1.2.9",
+    "version": "1.3.9",
     "displayName": "Descomplica Theme",
     "description": "Descomplica theme for VS Code",
     "publisher": "NyctibiusVII",
@@ -37,6 +37,11 @@
     },
     "contributes": {
         "themes": [
+            {
+                "label": "kyanite",
+                "uiTheme": "vs-dark",
+                "path": "./themes/kyanite-color-theme.json"
+            },
             {
                 "label": "Parakeet",
                 "uiTheme": "vs-dark",
