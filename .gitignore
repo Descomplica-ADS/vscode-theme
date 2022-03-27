@@ -1,4 +1,5 @@
 node_modules
 *.vsix
 
+README-BACKUP.md
 .vscode/settings.json
