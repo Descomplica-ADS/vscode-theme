@@ -6,7 +6,7 @@
 <h4 align="center">Dark themes for Visual Studio Code</h4>
 <p align="center">
     <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=00ef91&labelColor=000000" alt="PRs open">
-    <img src="https://img.shields.io/static/v1?label=Version&message=v1.4.13&color=00ef91&labelColor=000000" alt="Version">
+    <img src="https://img.shields.io/static/v1?label=Version&message=v1.4.15&color=00ef91&labelColor=000000" alt="Version">
     <img src="https://img.shields.io/static/v1?label=Themes&message=4&color=00ef91&labelColor=000000" alt="Number of themes">
     <img src="https://img.shields.io/github/repo-size/Descomplica-ADS/vscode-theme?color=00ef91&labelColor=000000" alt="Repo size">
     <a href="https://github.com/Descomplica-ADS/vscode-theme/blob/main/LICENSE">
@@ -60,11 +60,10 @@ $ npm install   /   yarn add
 ## Contribution 💭
 Want to [contribute](https://github.com/Descomplica-ADS/vscode-theme/blob/main/CONTRIBUTING) to this project? Then send your PR and be part of the team.
 
-## Team 🚀
-This theme is maintained by the following person(s).
-| [![Matheus Vidigal](https://github.com/NyctibiusVII.png?size=100)](https://github.com/NyctibiusVII) | [![Vinicius Rodrigues](https://github.com/Suburbanno.png?size=100)](https://github.com/Suburbanno) |
-| :---: | :---: |
-| <sub>[Matheus Vidigal](https://github.com/NyctibiusVII)</sub> | <sub>[Vinicius Rodrigues](https://github.com/Suburbanno)</sub> |
-
 ## License ⚖️
 This project is under the MIT license. See the [LICENSE](https://github.com/Descomplica-ADS/vscode-theme/blob/main/LICENSE) file for more details.
+
+## Contribuidores 🦸🏻‍♂️
+<a href="https://github.com/Descomplica-ADS/vscode-theme/graphs/contributors">
+    <img src="https://contributors-img.web.app/image?repo=Descomplica-ADS/vscode-theme&max=500" alt="Lista de contribuidores" width="30%"/>
+</a>

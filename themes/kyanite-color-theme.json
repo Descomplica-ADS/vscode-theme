@@ -1960,7 +1960,7 @@
     "editorWarning.background": "#f0e48420",
     "editorWarning.border": "#00000000",
     "editorInfo.foreground": "#8be9fd",
-    "editorInfo.background": "#8be9fd40",
+    "editorInfo.background": "#8be9fd1c",
     "editorInfo.border": "#00000000",
     "editorGutter.background": "#071321",
     "editorGutter.modifiedBackground": "#8be9fd",
